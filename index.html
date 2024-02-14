@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{{title}}}</title>
+	<meta itemprop="name" content="{{{title}}}" />
+	<meta name="twitter:title" content="{{{title}}}" />
+	<meta property="og:title" content="{{{title}}}" />
+
+	<meta name="description" content="{{{description}}}" />
+	<meta itemprop="description" content="{{{description}}}" />
+	<meta name="twitter:description" content="{{{description}}}" />
+	<meta property="og:description" content="{{{description}}}" />
+
+	<meta itemprop="image" content="{{{image}}}" />
+	<meta name="twitter:image:src" content="{{{image}}}" />
+	<meta property="og:image" content="{{{image}}}" />
+
+	<base href="/" />
+	<link rel="icon" type="image/x-icon" href="/rohovskanika/img/favicon.ico">
+
+	<link rel="stylesheet" href="/rohovskanika/css/owl.carousel.css">
+	<link rel="stylesheet" href="/rohovskanika/css/owl.theme.default.min.css">
+	<!-- Bootstrap Core CSS -->
+	<link href="/rohovskanika/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<!-- Custom Fonts -->
+	<link href="/rohovskanika/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<link href="/rohovskanika/css/theme.css" rel="stylesheet">
+
+	<style>
+		:root {
+			--primary_color: {{{variables.primary_color || "#ecd8bd"}}};
+		}
+	</style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="/">
+					{{{variables.logo_text}}}</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					{% for tag in tags %}
+					<li>
+						<a href="/{{{tag.category.group}}}s/{{{tag.id}}}" class="topbar-menu__link">{{{tag.name}}}</a>
+					</li>
+						{% endfor %}
+					</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- Intro Header -->
+
+	<main class="main-section">
+		<!-- HTML -->
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="footer_inner">
+				<ul>
+					<a href="/articles" class="footer-links">ARTRICLES</a>
+					{% for article in articles %}
+					<li>
+						<a href="/article/{{{article.id}}}">{{{article.name}}}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<ul>
+					<a href="/products" class="footer-links">PRODUCTS</a>
+					{% for product in products %}
+					<li>
+						<a href="/product/{{{product.id}}}"> {{{product.name}}}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<ul>
+					<a href="/services" class="footer-links">SERVICES</a>
+					{% for service in services %}
+					<li>
+						<a href="/service/{{{service.id}}}">{{{service.name}}}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<ul>
+					<a href="/portfolios" class="footer-links">PORTFOLIOS</a>
+					{% for portfolio in portfolios %}
+					<li>
+						<a href="/portfolio/{{{portfolio.id}}}">{{{portfolio.name}}}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		<div class="container content-section text-center">
+			<div class="logo">
+				<a class="logo-ft scroll-top" href="#"><em>{{{variables.logo_text}}}</em></a>
+				<p>{{{variables.ceo_text}}}</p>
+			</div>
+		</div>
+		<div class="text-footer">
+			<h5 class="color-pink">{{{variables.design_name}}}</h5>
+			<h5>Copyright &copy; 2023 WAW
+			</h5>
+		</div>
+	</footer>
+	<!-- jQuery -->
+	<script src="/rohovskanika/js/jquery.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="/rohovskanika/js/bootstrap.min.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="/rohovskanika/js/jquery.easing.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="/rohovskanika/js/theme.js"></script>
+	<!-- Slider JavaScript -->
+	<!-- SCRIPTS -->
+	<script src="/rohovskanika/js/owl.carousel.min.js"></script>
+	<script src="/rohovskanika/js/smoothscroll.js"></script>
+	<script src="/rohovskanika/js/custom.js"></script>
+
+
+
+
+</body>
+
+</html>

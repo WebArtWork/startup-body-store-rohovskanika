@@ -1,0 +1,169 @@
+{
+	"title": "Welcome to waw Template",
+	"description": "description",
+	"keywords": "keywords",
+	"prefix": "/rohovskanika",
+	"picture": "picture",
+	"author": "author",
+	"moderators": [],
+	"scss": "scss/index.scss",
+	"variables": {
+		"primary_color": "#ecd8bd",
+		"your_name": " ",
+		"land_decor": "1",
+		"ceo_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"logo_text": "Body",
+		"design_name": "Design: NIKA R.",
+		"contact_text": " Don't forget to subscribe to our newsletters and social networks",
+		"email_text": "ceo@webart.work",
+		"link_instagram": "",
+		"link_facebook": "",
+		"link_telegram": "",
+		"land_head_text": "Body",
+		"land_head_text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet",
+		"thumb_people1": "rohovskanika/img/author-image1.jpg",
+		"thumb_people2": "rohovskanika/img/author-image2.jpg",
+		"thumb_people3": "rohovskanika/img/author-image3.jpg",
+		"thumb_people4": "rohovskanika/img/author-image4.jpg",
+		"name_people1": "Mark Wilson",
+		"name_people2": "Catherine",
+		"name_people3": "JessieCa",
+		"name_people4": "Andrew Berti",
+		"role_1": "Сoach",
+		"role_2": "Masseur",
+		"role_3": "Manicure maste",
+		"role_4": "Hairdresser",
+		"description_role1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"description_role4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"price_1": "USD 25$",
+		"price_2": "USD 21$",
+		"price_3": "Free",
+		"price_4": "USD 29$",
+    "thumb_service1":"/rohovskanika/img/courses-image1.jpg",
+    "thumb_service2":"/rohovskanika/img/beauty2.jpg",
+    "thumb_service3":"/rohovskanika/img/beauty4.jpg",
+    "thumb_service4":"/rohovskanika/img/beauty5.jpg",
+		"article_description": " ",
+		"portfolio_description": " ",
+		"product_description": " ",
+		"profiles_description": " ",
+		"service_description": " "
+	},
+	"footer": {
+		"portfolios": [
+			{
+				"id": "/portfolio",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"name": "portfolio"
+			},
+			{
+				"id": "/portfolio",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"name": "portfolio"
+			},
+			{
+				"id": "/portfolio",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"name": "portfolio"
+			}
+		],
+		"products": [
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "product"
+			},
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "product"
+			},
+			{
+				"id": "/product",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "product"
+			}
+		],
+		"services": [
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "service"
+			},
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "service"
+			},
+			{
+				"id": "/service",
+				"price": 1200,
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "service"
+			}
+		],
+		"articles": [
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "article"
+			},
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "article"
+			},
+			{
+				"id": "/article",
+				"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+				"thumb": "/rohovskanika/img/salon-bg3.jpg",
+				"name": "article"
+			}
+		]	
+	},
+	"tags": [
+		{
+			"category": {
+				"group": "article"
+			},
+			"name": "Tag one"
+		},
+		{
+			"category": {
+				"group": "product"
+			},
+			"name": "Tag one"
+		},
+		{
+			"category": {
+				"group": "service"
+			},
+			"name": "Tag one"
+		},
+		{
+			"category": {
+				"group": "portfolio"
+			},
+			"name": "Tag one"
+		}
+	]
+}
+

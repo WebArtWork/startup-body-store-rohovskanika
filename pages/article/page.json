@@ -1,0 +1,10 @@
+{
+	"name": "article",
+	"article": {
+		"id": "/article",
+		"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "/rohovskanika/img/salon-bg3.jpg",
+		"name": "Article Name",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+	} 
+}

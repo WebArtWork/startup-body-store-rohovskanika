@@ -1,0 +1,26 @@
+{
+	"name": "portfolios",
+	"portfolios": [
+		{
+			"id": "123",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "/rohovskanika/img/salon-bg3.jpg",
+			"name": "Portfolio Name"
+		},
+		{
+			"id": "123",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "/rohovskanika/img/salon-bg3.jpg",
+			"name": "Portfolio Name"
+		},
+		{
+			"id": "123",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "/rohovskanika/img/salon-bg3.jpg",
+			"name": "Portfolio Name"
+		}
+	] 
+}
